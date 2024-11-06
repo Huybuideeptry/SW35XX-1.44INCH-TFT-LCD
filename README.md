@@ -87,6 +87,15 @@ Vậy là cơ bản phần nối dây đã xong việc còn lại là nạp code
 
 À quên ae phải cắm nguồn cho cả mạch sạc nó mới hiện thông số được nha còn cấp nguồn cho vi điều khiển không thì chỉ hiện mỗi giao diện thôi:))
 
+Nếu ae muôn làm cấu hình giống mình thì vào link này :
+
+https://shopee.vn/M%C3%A0n-H%C3%ACnh-LCD-TFT-0.96-1.3-1.44-1.8-inch-IPS-7P-SPI-HD-65K-ST7735-ST7789-IC-80*160-240*240-i.148048328.16949135690
+
+https://shopee.vn/Esp32-c3-MINI-Ban-Ph%C3%A1t-Tri%E1%BB%83n-ESP32-SuperMini-Ban-Ph%C3%A1t-Tri%E1%BB%83n-ESP32-C3-Ban-Ph%C3%A1t-Tri%E1%BB%83n-WiFi-Bluetooth-Ban-M%E1%BB%9F-R%E1%BB%99ng-i.148048328.27251969369
+
+https://shopee.vn/Sw3518-SW3516-QC4.0-QC3.0-USB-Type-C-%C4%90i%E1%BB%87n-tho%E1%BA%A1i-di-%C4%91%E1%BB%99ng-B%E1%BB%99-chuy%E1%BB%83n-%C4%91%E1%BB%95i-s%E1%BA%A1c-nhanh-6-35V-B%C6%B0%E1%BB%9Bc-xu%E1%BB%91ng-Buck-Boost-M%C3%B4-%C4%91un-i.148048328.25369679116
+
+### HIỆN TẠI CODE MÌNH MỚI CHỈ NẠP ĐƯỢC TRÊN ESP32 VÀ ESP8266, CÁC LOẠI ARDUINO HIỆN CODE VẪN ĐANG LỖI PHẦN I2C NÊN SẼ CẬP NHẬT SAU MONG AE THÔNG CẢM Ạ.
 
 
 
