@@ -37,8 +37,6 @@ Hàn được 2 chân này thì chúc mừng ae qua được bước khó nhất
 Giờ đến phần kết nối giữa màn hình TFT với chip esp32c3 supermini hơi nhiều dây chút vì SPI mà nhưng nhiều dây mới nhanh được;)))
 
 
-![image](https://github.com/user-attachments/assets/5c6efd56-2a07-4802-a532-da5dce172a32)
-
 
 ![image](https://github.com/user-attachments/assets/28fd40fc-176a-4b93-825c-7b52a277c0cf)
 
@@ -49,9 +47,9 @@ GND ----> GND
 
 VCC ----> +5V
 
-SCL ----> SCK
+SCL ----> SCK/SCLK
 
-SDA ----> SDA
+SDA ----> SDA (MOSI)
 
 RES ----> RST(RESET)
 
@@ -60,6 +58,21 @@ DC  ----> DC
 CS  ----> CS (CHIP SELECT)
 
 BLK ----> BACKLIGHT( đèn nền, chân này có thể nối thẳng vào dương nguồn 5v hoặc 3.3 đều được( hoặc ae có thể nối vào chân digital bất kì để điều khiển bật tắt cái đèn) vì là LCD mà không có đèn nền đâu có thấy gì đâu:))
+
+Nối đúng các chân vào như hình
+
+![image](https://github.com/user-attachments/assets/5c6efd56-2a07-4802-a532-da5dce172a32)
+
+
+![image](https://github.com/user-attachments/assets/b33f4eda-5325-47b4-9c2d-d90822889509)
+
+Quay lại với 2 sợi dây vừa hàn lên chip sạc, nếu ae dùng chip giống mình thì nối SCK vào chân 9 và SDA vào chân 8 theo datasheet hình trên. Để i2c coq thể hoạt động ae cần ít nhất 1 sợi dây nữa nối chân GND nguồn vào của mạch sạc chung với GND nguồn của vi điều khiển thì bọn nó mới hiểu nhau được.
+
+
+
+
+
+
 
 
 
