@@ -68,6 +68,13 @@ Nối đúng các chân vào như hình
 
 Quay lại với 2 sợi dây vừa hàn lên chip sạc, nếu ae dùng chip giống mình thì nối SCK vào chân 9 và SDA vào chân 8 theo datasheet hình trên. Để i2c coq thể hoạt động ae cần ít nhất 1 sợi dây nữa nối chân GND nguồn vào của mạch sạc chung với GND nguồn của vi điều khiển thì bọn nó mới hiểu nhau được.
 
+Vậy là cơ bản phần nối dây đã xong việc còn lại là nạp code và chờ kết quả, nếu ae hàn đúng hết nó sẽ hiện như này 
+
+![image](https://github.com/user-attachments/assets/9984c0df-abbe-4414-ad3e-ae778ad515c8)
+
+À quên ae phải cắm nguồn cho cả mạch sạc nó mới hiện thông số được nha còn cấp nguồn cho vi điều khiển không thì chỉ hiện mỗi giao diện thôi:))
+
+
 
 
 
