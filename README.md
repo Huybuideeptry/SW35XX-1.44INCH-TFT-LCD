@@ -34,5 +34,38 @@ nhiệt độ quá cao là bay 2 chân này luôn hoặc tệ hơn là dính và
 
 Khá là khó nhìn phải không cũng may là đế hàn của mình có sẵn cái kính phóng đại nên cũng đỡ hơn chút. Như hình thì vị trí của 2 chân đó là ngoài cùng bên phải theo hướng mạch trong hình hoặc ae nhìn vào dấu chấm trên chip là xác định được. Khi hàn xong ae cần phải đo thông mạch 2 dây này nếu nó thông với nhau thì ae cần phải gỡ ra hàn lại ( đây là lý do mình bay mất con mạch đầu tiên:(((
 Hàn được 2 chân này thì chúc mừng ae qua được bước khó nhất:)))). Hàn xong ta được 2 sợi dây ra với dây chân ngoài cùng sẽ là chân SCK tức là chân SCL ấy và chân tiếp theo là SDA.
-Giờ đến phần kết nối giữa màn hình TFT với chip esp32c3 supermini
+Giờ đến phần kết nối giữa màn hình TFT với chip esp32c3 supermini hơi nhiều dây chút vì SPI mà nhưng nhiều dây mới nhanh được;)))
+
+
+![image](https://github.com/user-attachments/assets/5c6efd56-2a07-4802-a532-da5dce172a32)
+
+
+![image](https://github.com/user-attachments/assets/28fd40fc-176a-4b93-825c-7b52a277c0cf)
+
+
+Giải thích 1 chút về các chân kết trên màn hình nối do 1 chân có thể có nhiều tên gọi khác nhau:
+
+GND ----> GND
+
+VCC ----> +5V
+
+SCL ----> SCK
+
+SDA ----> SDA
+
+RES ----> RST(RESET)
+
+DC  ----> DC
+
+CS  ----> CS (CHIP SELECT)
+
+BLK ----> BACKLIGHT( đèn nền, chân này có thể nối thẳng vào dương nguồn 5v hoặc 3.3 đều được( hoặc ae có thể nối vào chân digital bất kì để điều khiển bật tắt cái đèn) vì là LCD mà không có đèn nền đâu có thấy gì đâu:))
+
+
+
+
+
+
+
+
 
