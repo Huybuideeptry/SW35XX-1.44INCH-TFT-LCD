@@ -1,2 +1,2 @@
-# yeetttt
-thích mò nhiều thứ
+#SW35XX VỚI MÀN HÌNH TFT 1.44 INCH
+
