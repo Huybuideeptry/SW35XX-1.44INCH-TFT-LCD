@@ -87,7 +87,7 @@ Vậy là cơ bản phần nối dây đã xong việc còn lại là nạp code
 
 À quên ae phải cắm nguồn cho cả mạch sạc nó mới hiện thông số được nha còn cấp nguồn cho vi điều khiển không thì chỉ hiện mỗi giao diện thôi:))
 
-Nếu ae muôn làm cấu hình giống mình thì vào link này :
+Nếu ae muốn làm cấu hình giống mình thì có thể mua đồ vào link này, toàn bộ mình đều mua ở shop này :
 
 https://shopee.vn/M%C3%A0n-H%C3%ACnh-LCD-TFT-0.96-1.3-1.44-1.8-inch-IPS-7P-SPI-HD-65K-ST7735-ST7789-IC-80*160-240*240-i.148048328.16949135690
 
