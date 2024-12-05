@@ -1,3 +1,6 @@
+//my email: giahuykst2005@gmail.com
+
+
 #include <Arduino.h>
 #include <h1_SW35xx.h>
 using namespace h1_SW35xx;
